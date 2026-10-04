@@ -6,7 +6,7 @@ document.documentElement.style.overflow = 'hidden';
 document.body.style.overflow = 'hidden';
 
 // ── TYPED TITLE ──
-const titles = ['Noufan TN!', 'Cybersecurity Student!', 'Noufan TN!', 'Cybersecurity Student!', 'Noufan TN!', 'Cybersecurity Student!'];
+const titles = ['Noufan TN', 'Cybersecurity Student', 'Noufan TN', 'Cybersecurity Student', 'Noufan TN', 'Cybersecurity Student'];
 let titleIdx = 0, charIdx = 0, deleting = false;
 const typedEl = document.getElementById('typed-title');
 function typeLoop() {
